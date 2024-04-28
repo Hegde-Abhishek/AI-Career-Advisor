@@ -28,11 +28,11 @@ To install AI-Powered Career Advisor, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-powered-career-advisor.git
+git clone https://github.com/yourusername/ai-career-advisor.git
 Navigate to the project directory:
 bash
 Copy code
-cd ai-powered-career-advisor
+cd ai-career-advisor
 Install backend dependencies:
 bash
 Copy code

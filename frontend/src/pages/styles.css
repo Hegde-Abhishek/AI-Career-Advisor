@@ -1,0 +1,232 @@
+/* styles.css */
+body {
+  background-image: url('./bg.webp');
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 250px 350px;
+    padding: 20px;
+    border: 1px solid #464646;
+    border-radius: 10px;
+    background: linear-gradient(to bottom right, #f5f5f5, #e0e0e0);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 450px;
+    padding: 15px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #464646;
+    /* border-color: #ccc; Default border color */
+  transition: border-color 0.2s ease-in-out;
+  }
+
+  input:focus {
+    border-color: #007bff; /* Border color on focus */
+  }
+  
+  button {
+    /* width: 100%; */
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in-out;
+    animation: pulse 0.8s ease-in-out infinite alternate;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .error {
+    color: #e53e3e;
+    font-size: 0.9rem;
+  }
+
+  /* Add CSS styles for Job Listing page */
+  .job-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Center horizontally */
+    max-width: 1024px; /* Set optional maximum width */
+    padding: 20px;
+  }
+  
+  .job-list-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .job-cards {
+    display: grid;
+    grid-template-columns: inherit; /* Responsive grid */
+    gap: 20px;
+  }
+  
+  .job-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-overflow: hidden;
+    transition: transform 0.3s ease; /* Inherit transition */
+    cursor: pointer; /* Indicate hover potential */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+    background-color: #f5f5f5; /* Lighter shade on hover */
+  }
+  
+  /* Optional: Add hover effects for individual elements */
+  .job-card:hover .job-card-title {
+    color: #333;
+  }
+  
+  .job-card:hover .job-card-description {
+    color: #666;
+  }
+  
+  .job-details {
+    flex-grow: 1; /* Fill remaining space */
+  }
+  
+  .job-link {
+    align-self: flex-end; /* Align link/button to the end of the card */
+    margin-top: 10px;
+    color: #007bff; /* Blue color for link */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .job-link:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+  
+  
+
+  .user-profile-container {
+    max-width: 500px;
+    margin: 25px auto; /* Centered horizontally */
+    padding: 20px;
+    border-radius: 10px;
+    background: #f5f5f5;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .pagination button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #007bff;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination button:hover {
+    background-color: #e7e7e7;
+  }
+
+  .remoteRadio{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 90px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  /* VisaAdvicePage styles */
+.visa-advice-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.visa-advice-content {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f7f7f7;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+}
+
+.visa-advice-loading {
+  font-weight: bold;
+  color: #555;
+}
+
+.visa-advice-text {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.chat-interface {
+  margin-top: 2rem;
+}
+
+.chat-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.send-button {
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #4cae4c;
+}

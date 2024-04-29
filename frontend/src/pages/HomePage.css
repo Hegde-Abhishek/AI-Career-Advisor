@@ -1,0 +1,1109 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./white-abstract-background_23-2148804711.jpg');
+  background-size: cover;
+}
+
+.ai-character {
+  margin-right: 50px; /* Adjust spacing */
+}
+
+.ai-animation {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #007bff; /* AI color */
+  border-radius: 50%;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    top: 0;
+  }
+  to {
+    top: 50px;
+  }
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.get-started-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #007bff; /* AI color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #0056b3; /* Darker shade of AI color */
+}
+
+.message-bar {
+    margin-top: 20px; /* Adjust spacing */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-bar input {
+    padding: 10px;
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.message-bar input:focus {
+    outline: none;
+    border-color: #007bff; /* AI color */
+}
+
+.submit-icon {
+    height: 46px;
+    width: 46px;
+    margin-left: 10px; /* Adjust spacing */
+    font-size: 1.2rem; /* Adjust icon size */
+    color: #007bff; /* AI color */
+    cursor: pointer;
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
+
+/* HomePage.css */
+.top-right-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.top-right-menu img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Improved hamburger menu icon */
+.hamburger-menu {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.open .hamburger-menu:nth-child(1) {
+    transform: rotate(45deg) translate(2px, 3px);
+}
+
+.open .hamburger-menu:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger-menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -3px);
+}
